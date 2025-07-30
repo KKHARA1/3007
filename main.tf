@@ -16,3 +16,8 @@ resource "azurerm_resource_group" "ngn" {
   name     = "newkkrg"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "ngw" {
+  name     = "newkkrg1"
+  location = "West Europe"
+}
