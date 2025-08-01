@@ -4,6 +4,7 @@ backend "azurerm" {
     storage_account_name = "kkbackstg"                              # Can be passed via `-backend-config=`"storage_account_name=<storage account name>"` in the `init` command.
     container_name       = "kkcont"                               # Can be passed via `-backend-config=`"container_name=<container name>"` in the `init` command.
     key                  = "pipeline.tfstate"                # Can be passed via `-backend-config=`"key=<blob key name>"` in the `init` command.
+    use_azuread_auth     = true
   }
   required_providers {
     azurerm = {
