@@ -13,11 +13,11 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "ngn" {
-  name     = "newkkrg"
+  name     = "newkkrg22"
   location = "West Europe"
 }
 
 resource "azurerm_resource_group" "ngw" {
-  name     = "newkkrg1"
+  name     = "newkkrg33"
   location = "West Europe"
 }
